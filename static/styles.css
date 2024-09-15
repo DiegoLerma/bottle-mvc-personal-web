@@ -1,10 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center;
+    background-color: #f8f9fa; /* Color de fondo más suave */
 }
 
-h1 {
-    color: #0056b3;
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave en las tarjetas */
+}
+
+h1, h5 {
+    color: #343a40; /* Títulos en un tono gris oscuro */
+}
+
+a.btn {
+    font-size: 1.2em;
+}
+
+.center{
+    text-align: center;
 }
